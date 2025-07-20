@@ -380,11 +380,45 @@ def main():
                             exchange.cancel_order(order['id'], symbol)
                     except Exception as e:
                         logger.error(f"Error managing order {order.get('id', 'unknown')}: {e}")
-                time.sleep(10)
-                continue  # Wait for next cycle after managing orders
+                # Wait for all open orders to be cleared before proceeding
+                logger.info("Waiting for all open orders to be cleared before placing new orders...")
+                for _ in range(30):  # Wait up to 30 seconds
+                    time.sleep(1)
+                    open_orders = fetch_open_orders(exchange, symbol)
+                    if not open_orders:
+                        break
+                else:
+                    logger.warning("Open orders not cleared after 30 seconds. Skipping this cycle.")
+                    continue
+                # After open orders are cleared, re-fetch position to ensure it's updated
+                for _ in range(10):  # Wait up to 10 seconds for position update
+                    new_position = fetch_position(exchange, symbol)
+                    if new_position != position_size:
+                        logger.info(f"Position updated from {position_size} to {new_position} after clearing open orders.")
+                        position_size = new_position
+                        state['position_size'] = position_size
+                        save_state(state)
+                        break
+                    time.sleep(1)
+                else:
+                    logger.warning("Position did not update after clearing open orders. Skipping this cycle.")
+                    continue
 
             # 6. Main strategy logic (in-and-out)
             action_taken = False
+            # Before placing a new order, double-check there are no open orders and position is as expected
+            open_orders = fetch_open_orders(exchange, symbol)
+            if open_orders:
+                logger.warning("Open orders detected before placing a new order. Skipping this cycle.")
+                continue
+            confirmed_position = fetch_position(exchange, symbol)
+            if confirmed_position != position_size:
+                logger.warning(f"Position changed unexpectedly from {position_size} to {confirmed_position}. Skipping this cycle.")
+                position_size = confirmed_position
+                state['position_size'] = position_size
+                save_state(state)
+                continue
+
             if signal == 'long' and position_size <= 0:
                 if position_size < 0:
                     logger.info("Reversing from SHORT to LONG.")
