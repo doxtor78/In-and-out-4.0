@@ -1,0 +1,26 @@
+Update Log for In-and-out-4.0 Migration and Bot Restart
+=====================================================
+
+1. **Bot Restart Process**
+   - Attempted to restart the trading bot by running `live_bot.py`.
+   - Discovered missing Python dependencies (e.g., `ccxt`).
+   - Created a new Python virtual environment (`python3 -m venv venv`).
+   - Installed all required dependencies from `requirements.txt` inside the venv.
+   - Successfully restarted the bot using the virtual environment.
+
+2. **Backup and Migration to In-and-out-4.0**
+   - Copied all files from `In-and-out-3.0` to a new folder `In-and-out-4.0`.
+   - Removed the old `.git` directory to avoid git conflicts.
+   - Initialized a new git repository in `In-and-out-4.0`.
+   - Added all files and made an initial commit.
+   - Added the remote GitHub repository: https://github.com/doxtor78/In-and-out-4.0
+   - Renamed the default branch to `main`.
+   - Pushed the initial commit to GitHub.
+
+3. **Notes**
+   - The `venv` folder was included in the initial commit. For best practices, consider adding a `.gitignore` to exclude it in the future.
+   - No code logic was changed; only environment setup and migration steps were performed.
+
+---
+
+This file documents all actions taken for transparency and future reference. 
