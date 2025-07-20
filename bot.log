@@ -1,0 +1,1853 @@
+nohup: ignoring input
+2025-07-20 16:21:36,545 - __main__ - INFO - --- Starting robust in-and-out trading bot ---
+2025-07-20 16:21:36,545 - __main__ - INFO - Initializing connection to BitMEX testnet...
+2025-07-20 16:21:36,627 - __main__ - INFO - Time offset from server: -0.63 seconds
+2025-07-20 16:21:41,737 - __main__ - INFO - Successfully connected to BitMEX testnet
+2025-07-20 16:21:41,737 - __main__ - INFO - Loaded initial state: {'last_signal': 'short', 'open_order_id': None, 'open_order_side': None, 'open_order_price': None, 'position_size': -100, 'signal_confirm_count': 4}
+2025-07-20 16:21:41,737 - __main__ - INFO - Configuration: Trading XBTUSD on 1m with SMA window 5.
+2025-07-20 16:21:41,737 - __main__ - INFO - Order size: 100 contracts. Tick size: 0.5
+2025-07-20 16:21:41,737 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:21:46,690 - __main__ - INFO - Current Price: 118611.80, SMA(5): 118611.80. Signal: flat
+2025-07-20 16:21:46,690 - __main__ - INFO - Checking current position...
+2025-07-20 16:21:46,690 - __main__ - INFO - Fetching position...
+2025-07-20 16:21:46,690 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:21:51,689 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:21:51,689 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:21:56,684 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:22:01,689 - __main__ - INFO - Closing SHORT position with BUY order at 118642.9
+2025-07-20 16:22:02,695 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118643.0
+2025-07-20 16:22:02,695 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.01 seconds
+2025-07-20 16:22:02,695 - __main__ - INFO - Closing SHORT position with BUY order 224cfd3b-22c1-4def-b643-37407e9cbd88
+2025-07-20 16:22:07,695 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:22:07,771 - __main__ - INFO - Current Price: 118611.80, SMA(5): 118611.80. Signal: flat
+2025-07-20 16:22:07,772 - __main__ - INFO - Checking current position...
+2025-07-20 16:22:07,772 - __main__ - INFO - Fetching position...
+2025-07-20 16:22:07,772 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:22:12,759 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:22:12,759 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:22:17,749 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:23:17,749 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:23:17,834 - __main__ - INFO - Current Price: 118642.90, SMA(5): 118618.02. Signal: long
+2025-07-20 16:23:17,834 - __main__ - INFO - Checking current position...
+2025-07-20 16:23:17,834 - __main__ - INFO - Fetching position...
+2025-07-20 16:23:17,834 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:23:22,809 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:23:22,809 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:23:32,807 - __main__ - INFO - Opening BUY position with order at 118671.7
+2025-07-20 16:23:33,815 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118671.5
+2025-07-20 16:23:33,815 - __main__ - INFO - Time to OPEN BUY after signal: 1.01 seconds
+2025-07-20 16:23:33,815 - __main__ - INFO - Opening BUY position with order a0cf1707-a67c-4b85-967a-da90e8925e5c
+2025-07-20 16:23:38,816 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:23:38,887 - __main__ - INFO - Current Price: 118642.90, SMA(5): 118624.24. Signal: long
+2025-07-20 16:23:38,887 - __main__ - INFO - Checking current position...
+2025-07-20 16:23:38,887 - __main__ - INFO - Fetching position...
+2025-07-20 16:23:38,887 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:23:43,870 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:23:43,870 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:23:48,889 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:24:03,869 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:24:03,937 - __main__ - INFO - Current Price: 118642.90, SMA(5): 118624.24. Signal: long
+2025-07-20 16:24:03,937 - __main__ - INFO - Checking current position...
+2025-07-20 16:24:03,938 - __main__ - INFO - Fetching position...
+2025-07-20 16:24:03,938 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:24:08,921 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:24:08,921 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:24:13,920 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:24:18,949 - __main__ - INFO - Order a0cf1707-a67c-4b85-967a-da90e8925e5c is too old (45.15s), cancelling.
+2025-07-20 16:24:29,926 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:24:29,986 - __main__ - INFO - Current Price: 118642.90, SMA(5): 118630.46. Signal: long
+2025-07-20 16:24:29,986 - __main__ - INFO - Checking current position...
+2025-07-20 16:24:29,986 - __main__ - INFO - Fetching position...
+2025-07-20 16:24:29,986 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:24:34,977 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:24:34,978 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:24:44,987 - __main__ - INFO - Opening BUY position with order at 118605.9
+2025-07-20 16:24:45,990 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118606.0
+2025-07-20 16:24:45,990 - __main__ - INFO - Time to OPEN BUY after signal: 1.00 seconds
+2025-07-20 16:24:45,990 - __main__ - INFO - Opening BUY position with order eab6755b-ca44-4200-960a-8bdad86834f6
+2025-07-20 16:24:50,991 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:24:51,069 - __main__ - INFO - Current Price: 118642.90, SMA(5): 118630.46. Signal: long
+2025-07-20 16:24:51,069 - __main__ - INFO - Checking current position...
+2025-07-20 16:24:51,069 - __main__ - INFO - Fetching position...
+2025-07-20 16:24:51,069 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:24:56,043 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:24:56,043 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:25:01,083 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:26:01,083 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:26:01,240 - __main__ - INFO - Current Price: 118494.90, SMA(5): 118599.68. Signal: short
+2025-07-20 16:26:01,241 - __main__ - INFO - Checking current position...
+2025-07-20 16:26:01,241 - __main__ - INFO - Fetching position...
+2025-07-20 16:26:01,241 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:26:06,134 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:26:06,134 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:26:11,146 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 16:26:16,143 - __main__ - INFO - Closing LONG position with SELL order at 118486.6
+2025-07-20 16:26:17,149 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118486.5
+2025-07-20 16:26:17,149 - __main__ - INFO - Time to CLOSE LONG after signal: 1.01 seconds
+2025-07-20 16:26:17,149 - __main__ - INFO - Closing LONG position with SELL order bb6cf0c3-1d73-4c0c-8774-833e3ce203a6
+2025-07-20 16:26:18,149 - __main__ - INFO - Fetching position...
+2025-07-20 16:26:18,150 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:26:22,137 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:26:22,137 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:26:27,282 - __main__ - INFO - Opening SELL position with order at 118463.3
+2025-07-20 16:26:28,142 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118463.5
+2025-07-20 16:26:28,142 - __main__ - INFO - Time to OPEN SELL after signal: 0.86 seconds
+2025-07-20 16:26:28,142 - __main__ - INFO - Opening SELL position with order 1bbba785-6c84-4b87-a9cf-d4315851d226
+2025-07-20 16:26:33,142 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:26:33,226 - __main__ - INFO - Current Price: 118494.90, SMA(5): 118576.30. Signal: short
+2025-07-20 16:26:33,226 - __main__ - INFO - Checking current position...
+2025-07-20 16:26:33,227 - __main__ - INFO - Fetching position...
+2025-07-20 16:26:33,227 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:26:38,194 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:26:38,194 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:26:43,195 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:26:58,193 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:26:58,255 - __main__ - INFO - Current Price: 118486.60, SMA(5): 118574.64. Signal: short
+2025-07-20 16:26:58,255 - __main__ - INFO - Checking current position...
+2025-07-20 16:26:58,255 - __main__ - INFO - Fetching position...
+2025-07-20 16:26:58,255 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:27:03,255 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:27:03,255 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:27:08,247 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:28:08,247 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:28:08,359 - __main__ - INFO - Current Price: 118463.50, SMA(5): 118534.14. Signal: short
+2025-07-20 16:28:08,360 - __main__ - INFO - Checking current position...
+2025-07-20 16:28:08,360 - __main__ - INFO - Fetching position...
+2025-07-20 16:28:08,360 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:28:13,297 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:28:13,298 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:28:18,294 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:29:18,295 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:29:18,365 - __main__ - INFO - Current Price: 118463.50, SMA(5): 118498.26. Signal: short
+2025-07-20 16:29:18,366 - __main__ - INFO - Checking current position...
+2025-07-20 16:29:18,366 - __main__ - INFO - Fetching position...
+2025-07-20 16:29:18,366 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:29:23,346 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:29:23,346 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:29:28,345 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:30:28,346 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:30:28,420 - __main__ - INFO - Current Price: 118463.50, SMA(5): 118469.78. Signal: short
+2025-07-20 16:30:28,421 - __main__ - INFO - Checking current position...
+2025-07-20 16:30:28,421 - __main__ - INFO - Fetching position...
+2025-07-20 16:30:28,421 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:30:33,397 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:30:33,397 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:30:38,399 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:31:38,399 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:31:38,520 - __main__ - INFO - Current Price: 118463.50, SMA(5): 118463.50. Signal: flat
+2025-07-20 16:31:38,521 - __main__ - INFO - Checking current position...
+2025-07-20 16:31:38,521 - __main__ - INFO - Fetching position...
+2025-07-20 16:31:38,521 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:31:43,451 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:31:43,452 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 16:31:48,452 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:31:53,457 - __main__ - INFO - Closing SHORT position with BUY order at 118795.5
+2025-07-20 16:31:54,461 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118795.5
+2025-07-20 16:31:54,461 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.00 seconds
+2025-07-20 16:31:54,461 - __main__ - INFO - Closing SHORT position with BUY order 4d330444-46a2-415b-8523-25f725ecdf3a
+2025-07-20 16:31:59,462 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:31:59,520 - __main__ - INFO - Current Price: 118463.50, SMA(5): 118463.50. Signal: flat
+2025-07-20 16:31:59,521 - __main__ - INFO - Checking current position...
+2025-07-20 16:31:59,521 - __main__ - INFO - Fetching position...
+2025-07-20 16:31:59,521 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:32:04,516 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:32:04,516 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:32:09,518 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:33:09,518 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:33:09,624 - __main__ - INFO - Current Price: 118795.50, SMA(5): 118596.30. Signal: long
+2025-07-20 16:33:09,624 - __main__ - INFO - Checking current position...
+2025-07-20 16:33:09,624 - __main__ - INFO - Fetching position...
+2025-07-20 16:33:09,624 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:33:14,568 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:33:14,568 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:33:24,578 - __main__ - INFO - Opening BUY position with order at 118806.8
+2025-07-20 16:33:25,583 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118807.0
+2025-07-20 16:33:25,583 - __main__ - INFO - Time to OPEN BUY after signal: 1.00 seconds
+2025-07-20 16:33:25,583 - __main__ - INFO - Opening BUY position with order be415722-7e32-4a5d-a3ea-5243834d77ab
+2025-07-20 16:33:30,583 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:33:30,637 - __main__ - INFO - Current Price: 118795.50, SMA(5): 118662.70. Signal: long
+2025-07-20 16:33:30,638 - __main__ - INFO - Checking current position...
+2025-07-20 16:33:30,638 - __main__ - INFO - Fetching position...
+2025-07-20 16:33:30,638 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:33:35,640 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:33:35,640 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:33:40,639 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:34:40,640 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:34:40,711 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118733.62. Signal: long
+2025-07-20 16:34:40,711 - __main__ - INFO - Checking current position...
+2025-07-20 16:34:40,711 - __main__ - INFO - Fetching position...
+2025-07-20 16:34:40,711 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:34:45,702 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:34:45,702 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:34:50,696 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:35:50,697 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:35:50,808 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118802.28. Signal: long
+2025-07-20 16:35:50,808 - __main__ - INFO - Checking current position...
+2025-07-20 16:35:50,808 - __main__ - INFO - Fetching position...
+2025-07-20 16:35:50,808 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:35:55,763 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:35:55,764 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:36:00,751 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:37:00,751 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:37:00,820 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118804.54. Signal: long
+2025-07-20 16:37:00,820 - __main__ - INFO - Checking current position...
+2025-07-20 16:37:00,821 - __main__ - INFO - Fetching position...
+2025-07-20 16:37:00,821 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:37:05,805 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:37:05,805 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:37:10,802 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:38:10,802 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:38:10,891 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:38:10,891 - __main__ - INFO - Checking current position...
+2025-07-20 16:38:10,891 - __main__ - INFO - Fetching position...
+2025-07-20 16:38:10,891 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:38:15,866 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:38:15,866 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:38:20,850 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:38:25,856 - __main__ - INFO - Closing LONG position with SELL order at 118689.8
+2025-07-20 16:38:26,864 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118690.0
+2025-07-20 16:38:26,864 - __main__ - INFO - Time to CLOSE LONG after signal: 1.01 seconds
+2025-07-20 16:38:26,864 - __main__ - INFO - Closing LONG position with SELL order 5460b348-1a67-4e88-869f-8f533a101bef
+2025-07-20 16:38:31,865 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:38:31,924 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:38:31,925 - __main__ - INFO - Checking current position...
+2025-07-20 16:38:31,925 - __main__ - INFO - Fetching position...
+2025-07-20 16:38:31,925 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:38:36,921 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:38:36,921 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:38:41,922 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:38:56,918 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:38:56,976 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:38:56,977 - __main__ - INFO - Checking current position...
+2025-07-20 16:38:56,977 - __main__ - INFO - Fetching position...
+2025-07-20 16:38:56,977 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:39:01,976 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:39:01,977 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:39:06,975 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:39:11,997 - __main__ - INFO - Order 5460b348-1a67-4e88-869f-8f533a101bef is too old (45.15s), cancelling.
+2025-07-20 16:39:22,985 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:39:23,046 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:39:23,046 - __main__ - INFO - Checking current position...
+2025-07-20 16:39:23,046 - __main__ - INFO - Fetching position...
+2025-07-20 16:39:23,046 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:39:28,034 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:39:28,035 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:39:33,038 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:39:38,047 - __main__ - INFO - Closing LONG position with SELL order at 118689.8
+2025-07-20 16:39:39,042 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118690.0
+2025-07-20 16:39:39,042 - __main__ - INFO - Time to CLOSE LONG after signal: 0.99 seconds
+2025-07-20 16:39:39,042 - __main__ - INFO - Closing LONG position with SELL order e59402b1-1685-4413-ad1a-3a73ca4f1412
+2025-07-20 16:39:44,042 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:39:44,114 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:39:44,115 - __main__ - INFO - Checking current position...
+2025-07-20 16:39:44,115 - __main__ - INFO - Fetching position...
+2025-07-20 16:39:44,115 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:39:49,094 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:39:49,094 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:39:54,095 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:40:09,098 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:40:09,156 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:40:09,157 - __main__ - INFO - Checking current position...
+2025-07-20 16:40:09,157 - __main__ - INFO - Fetching position...
+2025-07-20 16:40:09,157 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:40:14,185 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:40:14,185 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:40:19,155 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:40:24,153 - __main__ - INFO - Order e59402b1-1685-4413-ad1a-3a73ca4f1412 is too old (45.13s), cancelling.
+2025-07-20 16:40:35,155 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:40:35,213 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:40:35,214 - __main__ - INFO - Checking current position...
+2025-07-20 16:40:35,214 - __main__ - INFO - Fetching position...
+2025-07-20 16:40:35,214 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:40:40,205 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:40:40,205 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:40:45,223 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:40:50,216 - __main__ - INFO - Closing LONG position with SELL order at 118689.8
+2025-07-20 16:40:51,211 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118690.0
+2025-07-20 16:40:51,211 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:40:51,211 - __main__ - INFO - Closing LONG position with SELL order 06f2d6ff-c616-466a-baa6-a8a61a92476f
+2025-07-20 16:40:56,212 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:40:56,267 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:40:56,267 - __main__ - INFO - Checking current position...
+2025-07-20 16:40:56,267 - __main__ - INFO - Fetching position...
+2025-07-20 16:40:56,267 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:41:01,270 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:41:01,270 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:41:06,261 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:41:21,269 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:41:21,340 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:41:21,340 - __main__ - INFO - Checking current position...
+2025-07-20 16:41:21,340 - __main__ - INFO - Fetching position...
+2025-07-20 16:41:21,340 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:41:26,326 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:41:26,326 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:41:31,321 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:41:36,327 - __main__ - INFO - Order 06f2d6ff-c616-466a-baa6-a8a61a92476f is too old (45.13s), cancelling.
+2025-07-20 16:41:47,329 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:41:47,399 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:41:47,399 - __main__ - INFO - Checking current position...
+2025-07-20 16:41:47,399 - __main__ - INFO - Fetching position...
+2025-07-20 16:41:47,399 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:41:52,383 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:41:52,383 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:41:57,389 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:42:02,382 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:42:03,423 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:42:03,423 - __main__ - INFO - Time to CLOSE LONG after signal: 1.04 seconds
+2025-07-20 16:42:03,423 - __main__ - INFO - Closing LONG position with SELL order b3a1065d-e109-4824-b717-c7294e15ce98
+2025-07-20 16:42:08,423 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:42:08,489 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:42:08,489 - __main__ - INFO - Checking current position...
+2025-07-20 16:42:08,489 - __main__ - INFO - Fetching position...
+2025-07-20 16:42:08,489 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:42:13,476 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:42:13,476 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:42:18,491 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:42:33,484 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:42:33,540 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:42:33,540 - __main__ - INFO - Checking current position...
+2025-07-20 16:42:33,540 - __main__ - INFO - Fetching position...
+2025-07-20 16:42:33,540 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:42:38,540 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:42:38,540 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:42:43,533 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:42:48,538 - __main__ - INFO - Order b3a1065d-e109-4824-b717-c7294e15ce98 is too old (45.13s), cancelling.
+2025-07-20 16:42:59,545 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:42:59,614 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:42:59,614 - __main__ - INFO - Checking current position...
+2025-07-20 16:42:59,614 - __main__ - INFO - Fetching position...
+2025-07-20 16:42:59,614 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:43:04,599 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:43:04,599 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:43:09,603 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:43:14,602 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:43:15,642 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:43:15,642 - __main__ - INFO - Time to CLOSE LONG after signal: 1.04 seconds
+2025-07-20 16:43:15,642 - __main__ - INFO - Closing LONG position with SELL order 4ea8429e-eaf8-4079-b0c6-5a3176a5ae7d
+2025-07-20 16:43:20,642 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:43:20,705 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:43:20,705 - __main__ - INFO - Checking current position...
+2025-07-20 16:43:20,706 - __main__ - INFO - Fetching position...
+2025-07-20 16:43:20,706 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:43:25,694 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:43:25,694 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:43:30,695 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:43:45,706 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:43:45,768 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:43:45,768 - __main__ - INFO - Checking current position...
+2025-07-20 16:43:45,768 - __main__ - INFO - Fetching position...
+2025-07-20 16:43:45,768 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:43:50,767 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:43:50,767 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:43:55,760 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:44:00,764 - __main__ - INFO - Order 4ea8429e-eaf8-4079-b0c6-5a3176a5ae7d is too old (45.14s), cancelling.
+2025-07-20 16:44:11,769 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:44:11,894 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:44:11,895 - __main__ - INFO - Checking current position...
+2025-07-20 16:44:11,895 - __main__ - INFO - Fetching position...
+2025-07-20 16:44:11,895 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:44:16,835 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:44:16,835 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:44:21,834 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:44:26,838 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:44:27,826 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:44:27,826 - __main__ - INFO - Time to CLOSE LONG after signal: 0.99 seconds
+2025-07-20 16:44:27,826 - __main__ - INFO - Closing LONG position with SELL order 1eb2d377-7f12-433b-b34d-d35b700aacfd
+2025-07-20 16:44:32,826 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:44:32,890 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:44:32,890 - __main__ - INFO - Checking current position...
+2025-07-20 16:44:32,890 - __main__ - INFO - Fetching position...
+2025-07-20 16:44:32,890 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:44:37,885 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:44:37,885 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:44:42,885 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:44:57,893 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:44:57,962 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:44:57,963 - __main__ - INFO - Checking current position...
+2025-07-20 16:44:57,963 - __main__ - INFO - Fetching position...
+2025-07-20 16:44:57,963 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:45:02,954 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:45:02,954 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:45:07,940 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:45:12,948 - __main__ - INFO - Order 1eb2d377-7f12-433b-b34d-d35b700aacfd is too old (45.14s), cancelling.
+2025-07-20 16:45:23,954 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:45:24,010 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:45:24,010 - __main__ - INFO - Checking current position...
+2025-07-20 16:45:24,010 - __main__ - INFO - Fetching position...
+2025-07-20 16:45:24,010 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:45:29,011 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:45:29,011 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:45:34,010 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:45:39,023 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:45:40,023 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:45:40,023 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:45:40,023 - __main__ - INFO - Closing LONG position with SELL order 77fb204c-d560-4168-b1d2-b958b7cb5037
+2025-07-20 16:45:45,023 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:45:45,081 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:45:45,082 - __main__ - INFO - Checking current position...
+2025-07-20 16:45:45,082 - __main__ - INFO - Fetching position...
+2025-07-20 16:45:45,082 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:45:50,077 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:45:50,077 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:45:55,072 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:46:10,095 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:46:10,168 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:46:10,169 - __main__ - INFO - Checking current position...
+2025-07-20 16:46:10,169 - __main__ - INFO - Fetching position...
+2025-07-20 16:46:10,169 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:46:15,146 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:46:15,146 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:46:20,153 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:46:25,162 - __main__ - INFO - Order 77fb204c-d560-4168-b1d2-b958b7cb5037 is too old (45.16s), cancelling.
+2025-07-20 16:46:36,190 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:46:36,252 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:46:36,252 - __main__ - INFO - Checking current position...
+2025-07-20 16:46:36,252 - __main__ - INFO - Fetching position...
+2025-07-20 16:46:36,252 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:46:41,282 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:46:41,282 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:46:46,246 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:46:51,247 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:46:52,246 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:46:52,246 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:46:52,246 - __main__ - INFO - Closing LONG position with SELL order 38819c4c-ee01-4aa9-964a-1443ba3b8174
+2025-07-20 16:46:57,246 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:46:57,305 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:46:57,305 - __main__ - INFO - Checking current position...
+2025-07-20 16:46:57,305 - __main__ - INFO - Fetching position...
+2025-07-20 16:46:57,305 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:47:02,308 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:47:02,309 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:47:07,298 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:47:22,320 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:47:22,374 - __main__ - INFO - Current Price: 118806.80, SMA(5): 118806.80. Signal: flat
+2025-07-20 16:47:22,375 - __main__ - INFO - Checking current position...
+2025-07-20 16:47:22,375 - __main__ - INFO - Fetching position...
+2025-07-20 16:47:22,375 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:47:27,371 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:47:27,371 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:47:32,373 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:47:37,382 - __main__ - INFO - Order 38819c4c-ee01-4aa9-964a-1443ba3b8174 is too old (45.15s), cancelling.
+2025-07-20 16:47:48,376 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:47:48,435 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118805.02. Signal: short
+2025-07-20 16:47:48,436 - __main__ - INFO - Checking current position...
+2025-07-20 16:47:48,436 - __main__ - INFO - Fetching position...
+2025-07-20 16:47:48,436 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:47:53,423 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:47:53,423 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:47:58,425 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 16:48:03,433 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:48:04,434 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:48:04,434 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:48:04,434 - __main__ - INFO - Closing LONG position with SELL order 2f95bf54-6f23-41e8-8d24-9162e0b770f9
+2025-07-20 16:48:05,434 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:05,434 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:09,428 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:09,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:10,429 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:10,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:14,428 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:14,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:15,428 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:15,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:19,438 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:19,438 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:20,439 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:20,439 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:24,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:24,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:25,428 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:25,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:29,437 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:29,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:30,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:30,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:34,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:34,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:35,427 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:35,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:39,428 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:39,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:40,428 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:40,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:44,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:44,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:45,427 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:45,427 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:49,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:49,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:50,427 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:50,427 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:54,460 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:54,460 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:48:55,461 - __main__ - INFO - Fetching position...
+2025-07-20 16:48:55,461 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:48:59,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:48:59,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:00,429 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:00,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:04,436 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:04,436 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:05,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:05,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:09,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:09,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:10,427 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:10,427 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:14,441 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:14,441 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:15,441 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:15,442 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:19,437 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:19,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:20,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:20,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:24,430 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:24,430 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:25,430 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:25,430 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:29,435 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:29,436 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:30,436 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:30,436 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:34,433 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:34,433 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:35,433 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:35,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:39,433 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:39,433 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:40,433 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:40,434 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:44,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:44,446 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:45,446 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:45,446 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:49,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:49,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:50,429 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:50,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:54,430 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:54,430 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:49:55,431 - __main__ - INFO - Fetching position...
+2025-07-20 16:49:55,431 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:49:59,446 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:49:59,446 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:00,446 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:00,447 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:04,461 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:04,462 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:05,462 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:05,462 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:09,428 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:09,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:10,428 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:10,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:14,434 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:14,435 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:15,435 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:15,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:19,437 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:19,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:20,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:20,438 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:24,431 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:24,431 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:25,431 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:25,431 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:29,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:29,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:30,432 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:30,432 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:34,442 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:34,442 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:35,442 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:35,443 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:39,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:39,439 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:40,439 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:40,439 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:44,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:44,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:45,433 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:45,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:49,440 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:49,440 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:50,441 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:50,441 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:54,433 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:54,433 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:50:55,434 - __main__ - INFO - Fetching position...
+2025-07-20 16:50:55,434 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:50:59,454 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:50:59,454 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:00,454 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:00,454 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:04,444 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:04,444 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:05,444 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:05,444 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:09,436 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:09,436 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:10,436 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:10,436 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:14,441 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:14,441 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:15,442 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:15,442 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:19,444 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:19,444 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:20,444 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:20,444 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:24,447 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:24,447 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:25,447 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:25,447 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:29,436 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:29,436 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:30,436 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:30,436 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:34,441 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:34,441 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:35,442 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:35,442 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:39,455 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:39,455 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:40,455 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:40,456 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:44,434 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:44,434 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:45,434 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:45,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:49,457 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:49,458 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:50,458 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:50,458 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:54,436 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:54,436 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:51:55,436 - __main__ - INFO - Fetching position...
+2025-07-20 16:51:55,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:51:59,449 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:51:59,449 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:00,449 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:00,450 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:04,442 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:04,442 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:05,442 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:05,443 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:09,437 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:09,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:10,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:10,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:14,444 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:14,444 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:15,444 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:15,445 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:19,444 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:19,445 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:20,445 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:20,445 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:24,453 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:24,453 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:25,453 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:25,453 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:29,455 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:29,455 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:30,455 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:30,456 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:34,436 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:34,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:35,437 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:35,437 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:39,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:39,446 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:40,446 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:40,446 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:44,443 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:44,444 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:45,444 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:45,444 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:49,444 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:49,444 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:50,444 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:50,444 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:54,456 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:54,456 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:52:55,456 - __main__ - INFO - Fetching position...
+2025-07-20 16:52:55,456 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:52:59,440 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:52:59,440 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:53:00,441 - __main__ - INFO - Fetching position...
+2025-07-20 16:53:00,441 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:53:04,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:53:04,439 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:53:04,439 - __main__ - WARNING - Position did not flatten after closing LONG. Skipping open.
+2025-07-20 16:53:04,439 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:53:04,439 - __main__ - INFO - Resynchronizing time with server...
+2025-07-20 16:53:05,594 - __main__ - INFO - Time offset from server: -0.59 seconds
+2025-07-20 16:53:05,594 - __main__ - INFO - Time offset updated to: -0.59 seconds
+2025-07-20 16:53:09,447 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:53:09,448 - __main__ - INFO - Checking current position...
+2025-07-20 16:53:09,448 - __main__ - INFO - Fetching position...
+2025-07-20 16:53:09,448 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:53:14,442 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:53:14,442 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:53:19,450 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:53:24,442 - __main__ - INFO - Order 2f95bf54-6f23-41e8-8d24-9162e0b770f9 is too old (320.03s), cancelling.
+2025-07-20 16:53:35,447 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:53:35,509 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:53:35,509 - __main__ - INFO - Checking current position...
+2025-07-20 16:53:35,509 - __main__ - INFO - Fetching position...
+2025-07-20 16:53:35,510 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:53:40,498 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:53:40,499 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:53:45,496 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:53:50,500 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:53:51,503 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:53:51,504 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:53:51,504 - __main__ - INFO - Closing LONG position with SELL order 2e997034-d4be-43d9-9dc0-a9f5fae17815
+2025-07-20 16:53:56,504 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:53:56,586 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:53:56,586 - __main__ - INFO - Checking current position...
+2025-07-20 16:53:56,586 - __main__ - INFO - Fetching position...
+2025-07-20 16:53:56,586 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:54:01,554 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:54:01,554 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:54:06,557 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:54:21,560 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:54:21,626 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:54:21,626 - __main__ - INFO - Checking current position...
+2025-07-20 16:54:21,627 - __main__ - INFO - Fetching position...
+2025-07-20 16:54:21,627 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:54:26,623 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:54:26,623 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:54:31,610 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:54:36,620 - __main__ - INFO - Order 2e997034-d4be-43d9-9dc0-a9f5fae17815 is too old (45.13s), cancelling.
+2025-07-20 16:54:47,622 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:54:47,690 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:54:47,690 - __main__ - INFO - Checking current position...
+2025-07-20 16:54:47,690 - __main__ - INFO - Fetching position...
+2025-07-20 16:54:47,690 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:54:52,694 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:54:52,694 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:54:57,686 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:55:02,681 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:55:03,681 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:55:03,681 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 16:55:03,681 - __main__ - INFO - Closing LONG position with SELL order 8f3a0efa-a870-4648-b9fb-e9ab100fea41
+2025-07-20 16:55:08,681 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:55:08,745 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:55:08,746 - __main__ - INFO - Checking current position...
+2025-07-20 16:55:08,746 - __main__ - INFO - Fetching position...
+2025-07-20 16:55:08,746 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:55:13,735 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:55:13,735 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:55:18,729 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:55:33,743 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:55:33,815 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:55:33,815 - __main__ - INFO - Checking current position...
+2025-07-20 16:55:33,815 - __main__ - INFO - Fetching position...
+2025-07-20 16:55:33,815 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:55:38,799 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:55:38,799 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:55:43,793 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:55:48,807 - __main__ - INFO - Order 8f3a0efa-a870-4648-b9fb-e9ab100fea41 is too old (45.14s), cancelling.
+2025-07-20 16:55:59,804 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:55:59,879 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:55:59,879 - __main__ - INFO - Checking current position...
+2025-07-20 16:55:59,879 - __main__ - INFO - Fetching position...
+2025-07-20 16:55:59,880 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:56:04,859 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:56:04,860 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:56:09,861 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:56:14,858 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:56:15,866 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:56:15,866 - __main__ - INFO - Time to CLOSE LONG after signal: 1.01 seconds
+2025-07-20 16:56:15,866 - __main__ - INFO - Closing LONG position with SELL order 0b9510a6-e6b6-41cc-b70c-136087028e75
+2025-07-20 16:56:20,866 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:56:20,929 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:56:20,930 - __main__ - INFO - Checking current position...
+2025-07-20 16:56:20,930 - __main__ - INFO - Fetching position...
+2025-07-20 16:56:20,930 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:56:25,925 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:56:25,925 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:56:30,919 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:56:45,926 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:56:46,004 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:56:46,005 - __main__ - INFO - Checking current position...
+2025-07-20 16:56:46,005 - __main__ - INFO - Fetching position...
+2025-07-20 16:56:46,005 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:56:50,990 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:56:50,991 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:56:55,982 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:57:01,012 - __main__ - INFO - Order 0b9510a6-e6b6-41cc-b70c-136087028e75 is too old (45.17s), cancelling.
+2025-07-20 16:57:11,981 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:57:12,043 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:57:12,043 - __main__ - INFO - Checking current position...
+2025-07-20 16:57:12,043 - __main__ - INFO - Fetching position...
+2025-07-20 16:57:12,044 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:57:17,038 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:57:17,039 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:57:22,032 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 16:57:27,033 - __main__ - INFO - Closing LONG position with SELL order at 118797.9
+2025-07-20 16:57:28,042 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118798.0
+2025-07-20 16:57:28,042 - __main__ - INFO - Time to CLOSE LONG after signal: 1.01 seconds
+2025-07-20 16:57:28,042 - __main__ - INFO - Closing LONG position with SELL order b1ae7064-ddcb-4155-8ef7-c01929bda1a0
+2025-07-20 16:57:33,042 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:57:33,126 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:57:33,127 - __main__ - INFO - Checking current position...
+2025-07-20 16:57:33,127 - __main__ - INFO - Fetching position...
+2025-07-20 16:57:33,127 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:57:38,094 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:57:38,094 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 16:57:43,091 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:57:58,130 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:57:58,198 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.90. Signal: flat
+2025-07-20 16:57:58,199 - __main__ - INFO - Checking current position...
+2025-07-20 16:57:58,199 - __main__ - INFO - Fetching position...
+2025-07-20 16:57:58,199 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:58:03,206 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:58:03,207 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:58:08,191 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 16:59:08,191 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:59:08,271 - __main__ - INFO - Current Price: 118798.00, SMA(5): 118797.94. Signal: long
+2025-07-20 16:59:08,271 - __main__ - INFO - Checking current position...
+2025-07-20 16:59:08,271 - __main__ - INFO - Fetching position...
+2025-07-20 16:59:08,271 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:59:13,248 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:59:13,248 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:59:23,244 - __main__ - INFO - Opening BUY position with order at 118842.7
+2025-07-20 16:59:24,250 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118842.5
+2025-07-20 16:59:24,250 - __main__ - INFO - Time to OPEN BUY after signal: 1.01 seconds
+2025-07-20 16:59:24,250 - __main__ - INFO - Opening BUY position with order 335be2e9-3015-44fa-a26e-9e5dc114cde6
+2025-07-20 16:59:29,250 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:59:29,314 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.92. Signal: short
+2025-07-20 16:59:29,315 - __main__ - INFO - Checking current position...
+2025-07-20 16:59:29,315 - __main__ - INFO - Fetching position...
+2025-07-20 16:59:29,315 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:59:34,303 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:59:34,303 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 16:59:39,307 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 16:59:54,310 - __main__ - INFO - --- New Cycle ---
+2025-07-20 16:59:54,368 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.92. Signal: short
+2025-07-20 16:59:54,369 - __main__ - INFO - Checking current position...
+2025-07-20 16:59:54,369 - __main__ - INFO - Fetching position...
+2025-07-20 16:59:54,369 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 16:59:59,360 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 16:59:59,360 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:00:04,362 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:00:09,514 - __main__ - INFO - Amending order 335be2e9-3015-44fa-a26e-9e5dc114cde6 from 118842.5 to 118850.4
+2025-07-20 17:00:14,368 - __main__ - INFO - Order 335be2e9-3015-44fa-a26e-9e5dc114cde6 already filled or closed.
+2025-07-20 17:00:14,369 - __main__ - INFO - Order 335be2e9-3015-44fa-a26e-9e5dc114cde6 is too old (50.14s), cancelling.
+2025-07-20 17:00:25,367 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:00:25,422 - __main__ - INFO - Current Price: 118797.90, SMA(5): 118797.92. Signal: short
+2025-07-20 17:00:25,422 - __main__ - INFO - Checking current position...
+2025-07-20 17:00:25,422 - __main__ - INFO - Fetching position...
+2025-07-20 17:00:25,422 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:00:30,421 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:00:30,421 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:00:35,427 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 17:00:40,445 - __main__ - INFO - Closing LONG position with SELL order at 118512.3
+2025-07-20 17:00:41,434 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118512.5
+2025-07-20 17:00:41,434 - __main__ - INFO - Time to CLOSE LONG after signal: 0.99 seconds
+2025-07-20 17:00:41,435 - __main__ - INFO - Closing LONG position with SELL order fb02e67b-21d1-4c5b-a84b-a6f2d0cae90f
+2025-07-20 17:00:42,435 - __main__ - INFO - Fetching position...
+2025-07-20 17:00:42,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:00:46,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:00:46,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:00:47,426 - __main__ - INFO - Fetching position...
+2025-07-20 17:00:47,426 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:00:51,421 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:00:51,421 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:00:52,422 - __main__ - INFO - Fetching position...
+2025-07-20 17:00:52,422 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:00:56,417 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:00:56,418 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:00:57,418 - __main__ - INFO - Fetching position...
+2025-07-20 17:00:57,418 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:01,514 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:01,514 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:02,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:02,515 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:06,421 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:06,421 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:07,421 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:07,421 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:11,446 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:11,446 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:12,446 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:12,446 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:16,424 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:16,424 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:17,424 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:17,424 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:21,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:21,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:22,427 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:22,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:26,423 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:26,423 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:27,424 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:27,424 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:31,418 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:31,418 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:32,418 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:32,418 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:36,421 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:36,421 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:37,421 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:37,421 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:41,424 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:41,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:42,425 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:42,425 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:46,447 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:46,448 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:47,448 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:47,448 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:51,428 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:51,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:52,429 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:52,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:01:56,418 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:01:56,419 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:01:57,419 - __main__ - INFO - Fetching position...
+2025-07-20 17:01:57,419 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:01,430 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:01,430 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:02,430 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:02,430 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:06,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:06,428 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:07,428 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:07,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:11,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:11,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:12,425 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:12,425 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:16,442 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:16,443 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:17,443 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:17,443 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:21,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:21,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:22,432 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:22,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:26,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:26,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:27,427 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:27,427 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:31,438 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:31,438 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:32,439 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:32,439 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:36,422 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:36,422 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:37,422 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:37,422 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:41,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:41,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:42,429 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:42,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:46,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:46,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:47,429 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:47,429 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:51,422 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:51,423 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:52,423 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:52,423 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:02:56,434 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:02:56,434 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:02:57,434 - __main__ - INFO - Fetching position...
+2025-07-20 17:02:57,434 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:01,419 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:01,419 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:02,419 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:02,419 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:06,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:06,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:07,425 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:07,425 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:11,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:11,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:12,425 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:12,426 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:16,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:16,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:17,432 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:17,432 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:21,421 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:21,421 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:22,421 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:22,421 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:26,424 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:26,424 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:27,424 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:27,424 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:31,434 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:31,434 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:32,434 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:32,434 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:36,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:36,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:37,429 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:37,430 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:41,429 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:41,429 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:42,429 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:42,430 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:46,435 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:46,435 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:47,435 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:47,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:51,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:51,426 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:52,426 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:52,426 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:03:56,433 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:03:56,433 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:03:57,433 - __main__ - INFO - Fetching position...
+2025-07-20 17:03:57,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:01,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:01,445 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:02,445 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:02,445 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:06,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:06,439 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:07,439 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:07,440 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:11,451 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:11,451 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:12,452 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:12,452 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:16,425 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:16,425 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:17,425 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:17,426 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:21,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:21,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:22,432 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:22,432 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:26,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:26,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:27,432 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:27,432 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:31,430 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:31,431 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:32,431 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:32,431 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:36,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:36,439 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:37,439 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:37,439 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:41,437 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:41,437 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:42,438 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:42,438 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:46,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:46,445 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:47,446 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:47,446 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:51,434 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:51,434 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:52,435 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:52,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:04:56,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:04:56,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:04:57,432 - __main__ - INFO - Fetching position...
+2025-07-20 17:04:57,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:01,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:01,440 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:02,440 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:02,440 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:06,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:06,445 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:07,445 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:07,446 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:11,450 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:11,450 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:12,451 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:12,451 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:16,445 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:16,445 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:17,445 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:17,445 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:21,435 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:21,435 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:22,435 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:22,435 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:26,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:26,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:27,433 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:27,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:31,432 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:31,432 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:32,433 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:32,433 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:36,427 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:36,427 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:37,427 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:37,428 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:41,438 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:41,438 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:41,438 - __main__ - WARNING - Position did not flatten after closing LONG. Skipping open.
+2025-07-20 17:05:41,438 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:05:46,438 - __main__ - INFO - Current Price: 118842.50, SMA(5): 118842.50. Signal: flat
+2025-07-20 17:05:46,438 - __main__ - INFO - Checking current position...
+2025-07-20 17:05:46,438 - __main__ - INFO - Fetching position...
+2025-07-20 17:05:46,438 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:05:51,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:05:51,439 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:05:56,435 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:06:01,433 - __main__ - INFO - Amending order fb02e67b-21d1-4c5b-a84b-a6f2d0cae90f from 118512.5 to 118311.1
+2025-07-20 17:06:07,448 - __main__ - INFO - Cancelled order fb02e67b-21d1-4c5b-a84b-a6f2d0cae90f to amend price.
+2025-07-20 17:06:08,458 - __main__ - INFO - Placed SELL LIMIT order for 100.0 at 118311.0
+2025-07-20 17:06:08,458 - __main__ - INFO - Amended order fb02e67b-21d1-4c5b-a84b-a6f2d0cae90f to new price 118311.0, new order def53b22-c36f-4c1e-a3aa-3a62bee51432
+2025-07-20 17:06:08,458 - __main__ - INFO - Order fb02e67b-21d1-4c5b-a84b-a6f2d0cae90f is too old (327.04s), cancelling.
+2025-07-20 17:06:19,442 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:06:19,515 - __main__ - INFO - Current Price: 118842.50, SMA(5): 118842.50. Signal: flat
+2025-07-20 17:06:19,515 - __main__ - INFO - Checking current position...
+2025-07-20 17:06:19,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:06:19,515 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:06:24,501 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:06:24,501 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:06:29,510 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:06:34,508 - __main__ - INFO - Amending order def53b22-c36f-4c1e-a3aa-3a62bee51432 from 118311.0 to 118307.7
+2025-07-20 17:06:40,508 - __main__ - INFO - Cancelled order def53b22-c36f-4c1e-a3aa-3a62bee51432 to amend price.
+2025-07-20 17:06:41,518 - __main__ - INFO - Placed SELL LIMIT order for 100.0 at 118307.5
+2025-07-20 17:06:41,518 - __main__ - INFO - Amended order def53b22-c36f-4c1e-a3aa-3a62bee51432 to new price 118307.5, new order 2d4e7e94-a430-4fa3-a1d3-e69632427b94
+2025-07-20 17:06:41,519 - __main__ - INFO - Order def53b22-c36f-4c1e-a3aa-3a62bee51432 is too old (33.08s), cancelling.
+2025-07-20 17:06:52,515 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:06:52,578 - __main__ - INFO - Current Price: 118842.50, SMA(5): 118842.50. Signal: flat
+2025-07-20 17:06:52,578 - __main__ - INFO - Checking current position...
+2025-07-20 17:06:52,578 - __main__ - INFO - Fetching position...
+2025-07-20 17:06:52,578 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:06:57,573 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:06:57,573 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:07:02,571 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:08:02,571 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:08:02,657 - __main__ - INFO - Current Price: 118307.70, SMA(5): 118628.58. Signal: short
+2025-07-20 17:08:02,657 - __main__ - INFO - Checking current position...
+2025-07-20 17:08:02,657 - __main__ - INFO - Fetching position...
+2025-07-20 17:08:02,657 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:08:07,622 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:08:07,623 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:08:17,650 - __main__ - INFO - Opening SELL position with order at 118323.4
+2025-07-20 17:08:18,627 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118323.5
+2025-07-20 17:08:18,628 - __main__ - INFO - Time to OPEN SELL after signal: 0.98 seconds
+2025-07-20 17:08:18,628 - __main__ - INFO - Opening SELL position with order 8f342a24-9460-4bf9-babc-42d75385f649
+2025-07-20 17:08:23,628 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:08:23,684 - __main__ - INFO - Current Price: 118307.70, SMA(5): 118628.58. Signal: short
+2025-07-20 17:08:23,685 - __main__ - INFO - Checking current position...
+2025-07-20 17:08:23,685 - __main__ - INFO - Fetching position...
+2025-07-20 17:08:23,685 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:08:28,683 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:08:28,683 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:08:33,687 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:08:38,690 - __main__ - INFO - Amending order 8f342a24-9460-4bf9-babc-42d75385f649 from 118323.5 to 118266.4
+2025-07-20 17:08:43,683 - __main__ - INFO - Order 8f342a24-9460-4bf9-babc-42d75385f649 already filled or closed.
+2025-07-20 17:08:53,684 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:08:53,754 - __main__ - INFO - Current Price: 118307.70, SMA(5): 118521.62. Signal: short
+2025-07-20 17:08:53,754 - __main__ - INFO - Checking current position...
+2025-07-20 17:08:53,754 - __main__ - INFO - Fetching position...
+2025-07-20 17:08:53,754 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:08:58,748 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:08:58,748 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:09:03,735 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:10:03,736 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:10:03,815 - __main__ - INFO - Current Price: 118323.50, SMA(5): 118420.98. Signal: short
+2025-07-20 17:10:03,815 - __main__ - INFO - Checking current position...
+2025-07-20 17:10:03,815 - __main__ - INFO - Fetching position...
+2025-07-20 17:10:03,816 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:10:08,794 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:10:08,794 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:10:13,785 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:11:13,785 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:11:13,865 - __main__ - INFO - Current Price: 118323.50, SMA(5): 118317.18. Signal: long
+2025-07-20 17:11:13,866 - __main__ - INFO - Checking current position...
+2025-07-20 17:11:13,866 - __main__ - INFO - Fetching position...
+2025-07-20 17:11:13,866 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:11:18,838 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:11:18,838 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:11:23,835 - __main__ - INFO - Reversing from SHORT to LONG.
+2025-07-20 17:11:28,843 - __main__ - INFO - Closing SHORT position with BUY order at 118376.7
+2025-07-20 17:11:29,841 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118376.5
+2025-07-20 17:11:29,842 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.00 seconds
+2025-07-20 17:11:29,842 - __main__ - INFO - Closing SHORT position with BUY order 7b253b6d-5aa3-42da-ba43-6a7b675fe886
+2025-07-20 17:11:30,842 - __main__ - INFO - Fetching position...
+2025-07-20 17:11:30,842 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:11:34,838 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:11:34,838 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:11:35,838 - __main__ - INFO - Fetching position...
+2025-07-20 17:11:35,839 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:11:39,851 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:11:39,851 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:11:40,851 - __main__ - INFO - Fetching position...
+2025-07-20 17:11:40,851 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:11:44,838 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:11:44,838 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:11:45,838 - __main__ - INFO - Fetching position...
+2025-07-20 17:11:45,838 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:11:49,838 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:11:49,838 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:11:54,846 - __main__ - INFO - Opening BUY position with order at 118376.7
+2025-07-20 17:11:55,939 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118376.5
+2025-07-20 17:11:55,939 - __main__ - INFO - Time to OPEN BUY after signal: 1.09 seconds
+2025-07-20 17:11:55,939 - __main__ - INFO - Opening BUY position with order b2ea000d-f786-4e7e-b252-08d4c4fcc5b7
+2025-07-20 17:12:00,940 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:12:01,001 - __main__ - INFO - Current Price: 118323.50, SMA(5): 118320.34. Signal: long
+2025-07-20 17:12:01,002 - __main__ - INFO - Checking current position...
+2025-07-20 17:12:01,002 - __main__ - INFO - Fetching position...
+2025-07-20 17:12:01,002 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:12:06,012 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:12:06,012 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:12:10,996 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:12:15,999 - __main__ - INFO - Amending order b2ea000d-f786-4e7e-b252-08d4c4fcc5b7 from 118376.5 to 118435.4
+2025-07-20 17:12:21,997 - __main__ - INFO - Cancelled order b2ea000d-f786-4e7e-b252-08d4c4fcc5b7 to amend price.
+2025-07-20 17:12:23,007 - __main__ - INFO - Placed BUY LIMIT order for 100.0 at 118435.5
+2025-07-20 17:12:23,007 - __main__ - INFO - Amended order b2ea000d-f786-4e7e-b252-08d4c4fcc5b7 to new price 118435.5, new order 053f526e-2fda-4924-802f-058c5cb1ec8c
+2025-07-20 17:12:33,008 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:12:33,081 - __main__ - INFO - Current Price: 118205.50, SMA(5): 118276.30. Signal: short
+2025-07-20 17:12:33,081 - __main__ - INFO - Checking current position...
+2025-07-20 17:12:33,082 - __main__ - INFO - Fetching position...
+2025-07-20 17:12:33,082 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:12:38,060 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:12:38,060 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:12:43,059 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 17:12:48,079 - __main__ - INFO - Closing LONG position with SELL order at 118261.2
+2025-07-20 17:12:49,074 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118261.0
+2025-07-20 17:12:49,074 - __main__ - INFO - Time to CLOSE LONG after signal: 0.99 seconds
+2025-07-20 17:12:49,074 - __main__ - INFO - Closing LONG position with SELL order 6bd802a9-78f2-4c3d-a9a7-f0c895918407
+2025-07-20 17:12:50,074 - __main__ - INFO - Fetching position...
+2025-07-20 17:12:50,075 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:12:54,066 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:12:54,066 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:12:59,070 - __main__ - INFO - Opening SELL position with order at 118192.0
+2025-07-20 17:13:00,073 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118192.0
+2025-07-20 17:13:00,073 - __main__ - INFO - Time to OPEN SELL after signal: 1.00 seconds
+2025-07-20 17:13:00,073 - __main__ - INFO - Opening SELL position with order 1f333894-7790-4732-afb0-7d07555d0ddc
+2025-07-20 17:13:05,074 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:13:05,149 - __main__ - INFO - Current Price: 118435.40, SMA(5): 118322.28. Signal: long
+2025-07-20 17:13:05,149 - __main__ - INFO - Checking current position...
+2025-07-20 17:13:05,149 - __main__ - INFO - Fetching position...
+2025-07-20 17:13:05,149 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:13:10,122 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:13:10,122 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:13:15,148 - __main__ - INFO - Reversing from SHORT to LONG.
+2025-07-20 17:13:20,129 - __main__ - INFO - Closing SHORT position with BUY order at 118438.8
+2025-07-20 17:13:21,159 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118439.0
+2025-07-20 17:13:21,159 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.03 seconds
+2025-07-20 17:13:21,159 - __main__ - INFO - Closing SHORT position with BUY order 4982be07-468b-4cb9-baab-0742c9158c0d
+2025-07-20 17:13:22,159 - __main__ - INFO - Fetching position...
+2025-07-20 17:13:22,159 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:13:26,126 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:13:26,126 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:13:31,139 - __main__ - INFO - Opening BUY position with order at 118425.5
+2025-07-20 17:13:32,141 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118425.5
+2025-07-20 17:13:32,141 - __main__ - INFO - Time to OPEN BUY after signal: 1.00 seconds
+2025-07-20 17:13:32,142 - __main__ - INFO - Opening BUY position with order a0392a6d-44fa-406e-995b-97bd97770f7f
+2025-07-20 17:13:37,142 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:13:37,207 - __main__ - INFO - Current Price: 118192.00, SMA(5): 118261.14. Signal: short
+2025-07-20 17:13:37,208 - __main__ - INFO - Checking current position...
+2025-07-20 17:13:37,208 - __main__ - INFO - Fetching position...
+2025-07-20 17:13:37,208 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:13:42,193 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:13:42,193 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:13:47,194 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 17:13:52,209 - __main__ - INFO - Closing LONG position with SELL order at 118247.9
+2025-07-20 17:13:53,199 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118248.0
+2025-07-20 17:13:53,199 - __main__ - INFO - Time to CLOSE LONG after signal: 0.99 seconds
+2025-07-20 17:13:53,199 - __main__ - INFO - Closing LONG position with SELL order 148cc255-9bf7-4ee7-b06e-28a8e50996c9
+2025-07-20 17:13:54,199 - __main__ - INFO - Fetching position...
+2025-07-20 17:13:54,199 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:13:58,196 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:13:58,197 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:13:59,197 - __main__ - INFO - Fetching position...
+2025-07-20 17:13:59,197 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:03,199 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:03,199 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:14:04,199 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:04,199 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:08,225 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:08,225 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:14:09,226 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:09,226 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:13,191 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:13,191 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:14:14,191 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:14,192 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:18,197 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:18,197 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:14:19,197 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:19,197 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:23,199 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:23,199 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:14:28,199 - __main__ - INFO - Opening SELL position with order at 118160.3
+2025-07-20 17:14:29,211 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118160.5
+2025-07-20 17:14:29,211 - __main__ - INFO - Time to OPEN SELL after signal: 1.01 seconds
+2025-07-20 17:14:29,211 - __main__ - INFO - Opening SELL position with order eb2d62b7-b70c-4d6a-b161-48aeabdee44d
+2025-07-20 17:14:34,211 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:14:34,275 - __main__ - INFO - Current Price: 118425.50, SMA(5): 118328.24. Signal: long
+2025-07-20 17:14:34,275 - __main__ - INFO - Checking current position...
+2025-07-20 17:14:34,275 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:34,275 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:14:39,271 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:14:39,271 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:14:44,263 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:14:59,266 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:14:59,328 - __main__ - INFO - Current Price: 118248.00, SMA(5): 118292.74. Signal: short
+2025-07-20 17:14:59,329 - __main__ - INFO - Checking current position...
+2025-07-20 17:14:59,329 - __main__ - INFO - Fetching position...
+2025-07-20 17:14:59,329 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:15:04,313 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:15:04,314 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:15:09,325 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:15:14,319 - __main__ - INFO - Order eb2d62b7-b70c-4d6a-b161-48aeabdee44d is too old (45.13s), cancelling.
+2025-07-20 17:15:25,331 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:15:25,389 - __main__ - INFO - Current Price: 118248.00, SMA(5): 118292.74. Signal: short
+2025-07-20 17:15:25,390 - __main__ - INFO - Checking current position...
+2025-07-20 17:15:25,390 - __main__ - INFO - Fetching position...
+2025-07-20 17:15:25,390 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:15:30,387 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:15:30,387 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:15:40,391 - __main__ - INFO - Opening SELL position with order at 118148.4
+2025-07-20 17:15:41,384 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118148.5
+2025-07-20 17:15:41,384 - __main__ - INFO - Time to OPEN SELL after signal: 0.99 seconds
+2025-07-20 17:15:41,385 - __main__ - INFO - Opening SELL position with order 85d47f5a-7fec-4004-babb-51702efb055c
+2025-07-20 17:15:46,385 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:15:46,438 - __main__ - INFO - Current Price: 118248.00, SMA(5): 118277.64. Signal: short
+2025-07-20 17:15:46,439 - __main__ - INFO - Checking current position...
+2025-07-20 17:15:46,439 - __main__ - INFO - Fetching position...
+2025-07-20 17:15:46,439 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:15:51,439 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:15:51,439 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:15:56,450 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:16:56,450 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:16:56,533 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118246.34. Signal: short
+2025-07-20 17:16:56,533 - __main__ - INFO - Checking current position...
+2025-07-20 17:16:56,533 - __main__ - INFO - Fetching position...
+2025-07-20 17:16:56,533 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:17:01,501 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:17:01,502 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:17:06,509 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:18:06,509 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:18:06,576 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118223.80. Signal: short
+2025-07-20 17:18:06,577 - __main__ - INFO - Checking current position...
+2025-07-20 17:18:06,577 - __main__ - INFO - Fetching position...
+2025-07-20 17:18:06,577 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:18:11,561 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:18:11,561 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:18:16,569 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:19:16,570 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:19:16,666 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118168.40. Signal: short
+2025-07-20 17:19:16,666 - __main__ - INFO - Checking current position...
+2025-07-20 17:19:16,666 - __main__ - INFO - Fetching position...
+2025-07-20 17:19:16,666 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:19:21,623 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:19:21,623 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:19:26,625 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:20:26,625 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:20:26,691 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118148.50. Signal: flat
+2025-07-20 17:20:26,691 - __main__ - INFO - Checking current position...
+2025-07-20 17:20:26,691 - __main__ - INFO - Fetching position...
+2025-07-20 17:20:26,691 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:20:31,675 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:20:31,675 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:20:36,675 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 17:20:41,679 - __main__ - INFO - Closing SHORT position with BUY order at 118548.2
+2025-07-20 17:20:42,684 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118548.0
+2025-07-20 17:20:42,685 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.01 seconds
+2025-07-20 17:20:42,685 - __main__ - INFO - Closing SHORT position with BUY order 7462cd34-af7f-4db8-82ba-0081ed783b9b
+2025-07-20 17:20:47,685 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:20:47,743 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118148.50. Signal: flat
+2025-07-20 17:20:47,744 - __main__ - INFO - Checking current position...
+2025-07-20 17:20:47,744 - __main__ - INFO - Fetching position...
+2025-07-20 17:20:47,744 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:20:52,749 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:20:52,749 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:20:57,741 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:21:12,738 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:21:12,794 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118148.50. Signal: flat
+2025-07-20 17:21:12,794 - __main__ - INFO - Checking current position...
+2025-07-20 17:21:12,794 - __main__ - INFO - Fetching position...
+2025-07-20 17:21:12,794 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:21:17,806 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:21:17,806 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:21:22,789 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:21:27,796 - __main__ - INFO - Amending order 7462cd34-af7f-4db8-82ba-0081ed783b9b from 118548.0 to 118574.4
+2025-07-20 17:21:33,799 - __main__ - INFO - Cancelled order 7462cd34-af7f-4db8-82ba-0081ed783b9b to amend price.
+2025-07-20 17:21:34,802 - __main__ - INFO - Placed BUY LIMIT order for 100.0 at 118574.5
+2025-07-20 17:21:34,802 - __main__ - INFO - Amended order 7462cd34-af7f-4db8-82ba-0081ed783b9b to new price 118574.5, new order ebcf4a28-db30-499c-b284-184de9de7a6c
+2025-07-20 17:21:34,802 - __main__ - INFO - Order 7462cd34-af7f-4db8-82ba-0081ed783b9b is too old (52.14s), cancelling.
+2025-07-20 17:21:45,920 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:21:45,978 - __main__ - INFO - Current Price: 118148.50, SMA(5): 118148.50. Signal: flat
+2025-07-20 17:21:45,978 - __main__ - INFO - Checking current position...
+2025-07-20 17:21:45,978 - __main__ - INFO - Fetching position...
+2025-07-20 17:21:45,978 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:21:50,985 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:21:50,985 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:21:55,973 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:22:55,974 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:22:56,066 - __main__ - INFO - Current Price: 118574.40, SMA(5): 118318.86. Signal: long
+2025-07-20 17:22:56,066 - __main__ - INFO - Checking current position...
+2025-07-20 17:22:56,066 - __main__ - INFO - Fetching position...
+2025-07-20 17:22:56,066 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:23:01,021 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:23:01,021 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:23:11,031 - __main__ - INFO - Opening BUY position with order at 118541.6
+2025-07-20 17:23:12,033 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118541.5
+2025-07-20 17:23:12,033 - __main__ - INFO - Time to OPEN BUY after signal: 1.00 seconds
+2025-07-20 17:23:12,033 - __main__ - INFO - Opening BUY position with order a3a4ea96-4d24-4e4d-98ad-04f88b8e3cb5
+2025-07-20 17:23:17,034 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:23:17,034 - __main__ - INFO - Resynchronizing time with server...
+2025-07-20 17:23:18,239 - __main__ - INFO - Time offset from server: -0.24 seconds
+2025-07-20 17:23:18,239 - __main__ - INFO - Time offset updated to: -0.24 seconds
+2025-07-20 17:23:18,315 - __main__ - INFO - Current Price: 118574.40, SMA(5): 118318.86. Signal: long
+2025-07-20 17:23:18,316 - __main__ - INFO - Checking current position...
+2025-07-20 17:23:18,316 - __main__ - INFO - Fetching position...
+2025-07-20 17:23:18,316 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:23:23,297 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:23:23,297 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:23:28,291 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:24:28,291 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:24:28,374 - __main__ - INFO - Current Price: 118541.50, SMA(5): 118397.46. Signal: long
+2025-07-20 17:24:28,374 - __main__ - INFO - Checking current position...
+2025-07-20 17:24:28,374 - __main__ - INFO - Fetching position...
+2025-07-20 17:24:28,374 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:24:33,342 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:24:33,342 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:24:38,339 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:25:38,339 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:25:38,408 - __main__ - INFO - Current Price: 118541.50, SMA(5): 118554.66. Signal: short
+2025-07-20 17:25:38,408 - __main__ - INFO - Checking current position...
+2025-07-20 17:25:38,408 - __main__ - INFO - Fetching position...
+2025-07-20 17:25:38,408 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:25:43,388 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:25:43,388 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:25:48,394 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 17:25:53,391 - __main__ - INFO - Closing LONG position with SELL order at 118303.3
+2025-07-20 17:25:54,401 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118303.5
+2025-07-20 17:25:54,401 - __main__ - INFO - Time to CLOSE LONG after signal: 1.01 seconds
+2025-07-20 17:25:54,401 - __main__ - INFO - Closing LONG position with SELL order 577fa158-a334-4ae9-976c-0db7c6760274
+2025-07-20 17:25:55,401 - __main__ - INFO - Fetching position...
+2025-07-20 17:25:55,402 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:25:59,431 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:25:59,431 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:26:00,431 - __main__ - INFO - Fetching position...
+2025-07-20 17:26:00,432 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:26:04,405 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:26:04,405 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:26:05,405 - __main__ - INFO - Fetching position...
+2025-07-20 17:26:05,405 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:26:09,404 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:26:09,404 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:26:10,404 - __main__ - INFO - Fetching position...
+2025-07-20 17:26:10,404 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:26:14,393 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:26:14,393 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:26:15,393 - __main__ - INFO - Fetching position...
+2025-07-20 17:26:15,393 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:26:19,391 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:26:19,391 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:26:24,392 - __main__ - INFO - Opening SELL position with order at 118146.7
+2025-07-20 17:26:25,398 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118146.5
+2025-07-20 17:26:25,398 - __main__ - INFO - Time to OPEN SELL after signal: 1.01 seconds
+2025-07-20 17:26:25,398 - __main__ - INFO - Opening SELL position with order 22ee5472-cce0-416a-9df8-76ba5de2ab3a
+2025-07-20 17:26:30,399 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:26:30,471 - __main__ - INFO - Current Price: 118541.50, SMA(5): 118548.08. Signal: short
+2025-07-20 17:26:30,472 - __main__ - INFO - Checking current position...
+2025-07-20 17:26:30,472 - __main__ - INFO - Fetching position...
+2025-07-20 17:26:30,472 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:26:35,453 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:26:35,453 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:26:40,459 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:27:40,460 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:27:40,539 - __main__ - INFO - Current Price: 118146.70, SMA(5): 118383.58. Signal: short
+2025-07-20 17:27:40,539 - __main__ - INFO - Checking current position...
+2025-07-20 17:27:40,539 - __main__ - INFO - Fetching position...
+2025-07-20 17:27:40,539 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:27:45,514 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:27:45,514 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:27:50,515 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:28:50,516 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:28:50,593 - __main__ - INFO - Current Price: 118146.70, SMA(5): 118304.62. Signal: short
+2025-07-20 17:28:50,593 - __main__ - INFO - Checking current position...
+2025-07-20 17:28:50,593 - __main__ - INFO - Fetching position...
+2025-07-20 17:28:50,593 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:28:55,565 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:28:55,565 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:29:00,570 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:30:00,570 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:30:00,662 - __main__ - INFO - Current Price: 118146.70, SMA(5): 118225.66. Signal: short
+2025-07-20 17:30:00,663 - __main__ - INFO - Checking current position...
+2025-07-20 17:30:00,663 - __main__ - INFO - Fetching position...
+2025-07-20 17:30:00,663 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:30:05,626 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:30:05,626 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:30:10,628 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:31:10,628 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:31:10,703 - __main__ - INFO - Current Price: 118146.70, SMA(5): 118146.70. Signal: flat
+2025-07-20 17:31:10,703 - __main__ - INFO - Checking current position...
+2025-07-20 17:31:10,703 - __main__ - INFO - Fetching position...
+2025-07-20 17:31:10,703 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:31:15,685 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:31:15,685 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:31:20,681 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 17:31:25,685 - __main__ - INFO - Closing SHORT position with BUY order at 118498.5
+2025-07-20 17:31:26,691 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118498.5
+2025-07-20 17:31:26,691 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.01 seconds
+2025-07-20 17:31:26,691 - __main__ - INFO - Closing SHORT position with BUY order 2e2171aa-c7c6-49ea-b376-33b2d79cae19
+2025-07-20 17:31:31,692 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:31:31,759 - __main__ - INFO - Current Price: 118146.70, SMA(5): 118146.70. Signal: flat
+2025-07-20 17:31:31,759 - __main__ - INFO - Checking current position...
+2025-07-20 17:31:31,760 - __main__ - INFO - Fetching position...
+2025-07-20 17:31:31,760 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:31:36,754 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:31:36,754 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:31:41,782 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:32:41,782 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:32:41,854 - __main__ - INFO - Current Price: 118498.50, SMA(5): 118287.42. Signal: long
+2025-07-20 17:32:41,854 - __main__ - INFO - Checking current position...
+2025-07-20 17:32:41,854 - __main__ - INFO - Fetching position...
+2025-07-20 17:32:41,854 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:32:46,835 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:32:46,835 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:32:56,851 - __main__ - INFO - Opening BUY position with order at 118514.6
+2025-07-20 17:32:57,838 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118514.5
+2025-07-20 17:32:57,838 - __main__ - INFO - Time to OPEN BUY after signal: 0.99 seconds
+2025-07-20 17:32:57,838 - __main__ - INFO - Opening BUY position with order 6c6b24f0-5d3d-4c8d-a9dd-6175b92bd9f4
+2025-07-20 17:33:02,838 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:33:02,899 - __main__ - INFO - Current Price: 118498.50, SMA(5): 118287.42. Signal: long
+2025-07-20 17:33:02,899 - __main__ - INFO - Checking current position...
+2025-07-20 17:33:02,899 - __main__ - INFO - Fetching position...
+2025-07-20 17:33:02,899 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:33:07,890 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:33:07,890 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:33:12,909 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:33:27,905 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:33:27,965 - __main__ - INFO - Current Price: 118498.50, SMA(5): 118287.42. Signal: long
+2025-07-20 17:33:27,965 - __main__ - INFO - Checking current position...
+2025-07-20 17:33:27,965 - __main__ - INFO - Fetching position...
+2025-07-20 17:33:27,965 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:33:32,954 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:33:32,954 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:33:37,952 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:33:42,972 - __main__ - INFO - Order 6c6b24f0-5d3d-4c8d-a9dd-6175b92bd9f4 is too old (45.15s), cancelling.
+2025-07-20 17:33:53,962 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:33:54,018 - __main__ - INFO - Current Price: 118498.50, SMA(5): 118357.78. Signal: long
+2025-07-20 17:33:54,019 - __main__ - INFO - Checking current position...
+2025-07-20 17:33:54,019 - __main__ - INFO - Fetching position...
+2025-07-20 17:33:54,019 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:33:59,030 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:33:59,030 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:34:09,013 - __main__ - INFO - Opening BUY position with order at 118571.8
+2025-07-20 17:34:10,279 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118572.0
+2025-07-20 17:34:10,279 - __main__ - INFO - Time to OPEN BUY after signal: 1.27 seconds
+2025-07-20 17:34:10,279 - __main__ - INFO - Opening BUY position with order 5bb679a2-5145-4b5b-8586-08079f3e9667
+2025-07-20 17:34:15,280 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:34:15,347 - __main__ - INFO - Current Price: 118498.50, SMA(5): 118357.78. Signal: long
+2025-07-20 17:34:15,347 - __main__ - INFO - Checking current position...
+2025-07-20 17:34:15,347 - __main__ - INFO - Fetching position...
+2025-07-20 17:34:15,347 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:34:20,337 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:34:20,337 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:34:25,332 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:35:25,332 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:35:25,413 - __main__ - INFO - Current Price: 118571.80, SMA(5): 118442.80. Signal: long
+2025-07-20 17:35:25,413 - __main__ - INFO - Checking current position...
+2025-07-20 17:35:25,413 - __main__ - INFO - Fetching position...
+2025-07-20 17:35:25,413 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:35:30,396 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:35:30,396 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:35:35,387 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:36:35,387 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:36:35,490 - __main__ - INFO - Current Price: 118571.80, SMA(5): 118542.48. Signal: long
+2025-07-20 17:36:35,491 - __main__ - INFO - Checking current position...
+2025-07-20 17:36:35,491 - __main__ - INFO - Fetching position...
+2025-07-20 17:36:35,491 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:36:40,458 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:36:40,458 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:36:45,439 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:37:45,439 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:37:45,522 - __main__ - INFO - Current Price: 118571.80, SMA(5): 118557.14. Signal: long
+2025-07-20 17:37:45,522 - __main__ - INFO - Checking current position...
+2025-07-20 17:37:45,522 - __main__ - INFO - Fetching position...
+2025-07-20 17:37:45,523 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:37:50,492 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:37:50,492 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:37:55,492 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:38:55,493 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:38:55,583 - __main__ - INFO - Current Price: 118571.80, SMA(5): 118571.80. Signal: flat
+2025-07-20 17:38:55,583 - __main__ - INFO - Checking current position...
+2025-07-20 17:38:55,583 - __main__ - INFO - Fetching position...
+2025-07-20 17:38:55,583 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:39:00,547 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:39:00,547 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:39:05,544 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 17:39:10,565 - __main__ - INFO - Closing LONG position with SELL order at 118297.5
+2025-07-20 17:39:11,562 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118297.5
+2025-07-20 17:39:11,562 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 17:39:11,562 - __main__ - INFO - Closing LONG position with SELL order b00a5b01-c939-4b03-b461-87e658638c82
+2025-07-20 17:39:16,563 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:39:16,633 - __main__ - INFO - Current Price: 118571.80, SMA(5): 118571.80. Signal: flat
+2025-07-20 17:39:16,633 - __main__ - INFO - Checking current position...
+2025-07-20 17:39:16,633 - __main__ - INFO - Fetching position...
+2025-07-20 17:39:16,633 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:39:21,613 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:39:21,613 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:39:26,621 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:40:26,622 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:40:26,700 - __main__ - INFO - Current Price: 118297.50, SMA(5): 118516.94. Signal: short
+2025-07-20 17:40:26,701 - __main__ - INFO - Checking current position...
+2025-07-20 17:40:26,701 - __main__ - INFO - Fetching position...
+2025-07-20 17:40:26,701 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:40:31,673 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:40:31,673 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:40:41,687 - __main__ - INFO - Opening SELL position with order at 118150.0
+2025-07-20 17:40:42,677 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118150.0
+2025-07-20 17:40:42,677 - __main__ - INFO - Time to OPEN SELL after signal: 0.99 seconds
+2025-07-20 17:40:42,677 - __main__ - INFO - Opening SELL position with order 872cd91a-c412-4e5e-a9e3-dec00bc12a8b
+2025-07-20 17:40:47,677 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:40:47,741 - __main__ - INFO - Current Price: 118309.90, SMA(5): 118464.56. Signal: short
+2025-07-20 17:40:47,741 - __main__ - INFO - Checking current position...
+2025-07-20 17:40:47,742 - __main__ - INFO - Fetching position...
+2025-07-20 17:40:47,742 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:40:52,727 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:40:52,727 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:40:57,729 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:41:57,729 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:41:57,834 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118380.90. Signal: short
+2025-07-20 17:41:57,835 - __main__ - INFO - Checking current position...
+2025-07-20 17:41:57,835 - __main__ - INFO - Fetching position...
+2025-07-20 17:41:57,835 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:42:02,788 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:42:02,788 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:42:07,782 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:43:07,782 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:43:07,856 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118312.88. Signal: short
+2025-07-20 17:43:07,856 - __main__ - INFO - Checking current position...
+2025-07-20 17:43:07,857 - __main__ - INFO - Fetching position...
+2025-07-20 17:43:07,857 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:43:12,838 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:43:12,838 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:43:17,833 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:44:17,834 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:44:17,896 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118244.86. Signal: short
+2025-07-20 17:44:17,896 - __main__ - INFO - Checking current position...
+2025-07-20 17:44:17,896 - __main__ - INFO - Fetching position...
+2025-07-20 17:44:17,896 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:44:22,887 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:44:22,887 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:44:27,885 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:45:27,885 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:45:27,964 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118231.70. Signal: flat
+2025-07-20 17:45:27,965 - __main__ - INFO - Checking current position...
+2025-07-20 17:45:27,965 - __main__ - INFO - Fetching position...
+2025-07-20 17:45:27,965 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:45:32,938 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:45:32,938 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:45:37,937 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 17:45:42,941 - __main__ - INFO - Closing SHORT position with BUY order at 118294.6
+2025-07-20 17:45:43,944 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118294.5
+2025-07-20 17:45:43,945 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.00 seconds
+2025-07-20 17:45:43,945 - __main__ - INFO - Closing SHORT position with BUY order 4e43d6ed-47e9-431b-b16f-a64c30b0343e
+2025-07-20 17:45:48,945 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:45:49,007 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118231.70. Signal: flat
+2025-07-20 17:45:49,007 - __main__ - INFO - Checking current position...
+2025-07-20 17:45:49,007 - __main__ - INFO - Fetching position...
+2025-07-20 17:45:49,007 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:45:53,994 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:45:53,994 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:45:59,009 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:46:14,005 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:46:14,067 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118231.70. Signal: flat
+2025-07-20 17:46:14,067 - __main__ - INFO - Checking current position...
+2025-07-20 17:46:14,067 - __main__ - INFO - Fetching position...
+2025-07-20 17:46:14,067 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:46:19,065 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:46:19,065 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:46:24,069 - __main__ - INFO - Found 1 open order(s). Managing...
+2025-07-20 17:46:29,083 - __main__ - INFO - Order 4e43d6ed-47e9-431b-b16f-a64c30b0343e is too old (45.16s), cancelling.
+2025-07-20 17:46:40,063 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:46:40,119 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118231.70. Signal: flat
+2025-07-20 17:46:40,119 - __main__ - INFO - Checking current position...
+2025-07-20 17:46:40,119 - __main__ - INFO - Fetching position...
+2025-07-20 17:46:40,119 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:46:45,129 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:46:45,129 - __main__ - INFO - Position for XBTUSD: -100
+2025-07-20 17:46:50,119 - __main__ - INFO - Signal is FLAT, closing position.
+2025-07-20 17:46:55,119 - __main__ - INFO - Closing SHORT position with BUY order at 118296.3
+2025-07-20 17:46:56,203 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118296.5
+2025-07-20 17:46:56,203 - __main__ - INFO - Time to CLOSE SHORT after signal: 1.08 seconds
+2025-07-20 17:46:56,203 - __main__ - INFO - Closing SHORT position with BUY order 105a5061-5c7d-4a2e-b8cc-ffb67eedf6a3
+2025-07-20 17:47:01,203 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:47:01,281 - __main__ - INFO - Current Price: 118231.70, SMA(5): 118231.70. Signal: flat
+2025-07-20 17:47:01,281 - __main__ - INFO - Checking current position...
+2025-07-20 17:47:01,281 - __main__ - INFO - Fetching position...
+2025-07-20 17:47:01,282 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:47:06,256 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:47:06,257 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:47:11,253 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:48:11,253 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:48:11,359 - __main__ - INFO - Current Price: 118296.30, SMA(5): 118257.54. Signal: long
+2025-07-20 17:48:11,359 - __main__ - INFO - Checking current position...
+2025-07-20 17:48:11,359 - __main__ - INFO - Fetching position...
+2025-07-20 17:48:11,359 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:48:16,302 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:48:16,302 - __main__ - INFO - Position for XBTUSD: 0
+2025-07-20 17:48:26,312 - __main__ - INFO - Opening BUY position with order at 118292.9
+2025-07-20 17:48:27,321 - __main__ - INFO - Placed BUY LIMIT order for 100 at 118293.0
+2025-07-20 17:48:27,321 - __main__ - INFO - Time to OPEN BUY after signal: 1.01 seconds
+2025-07-20 17:48:27,321 - __main__ - INFO - Opening BUY position with order 61343e13-931f-4e8e-af88-cef61e5d8971
+2025-07-20 17:48:32,321 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:48:32,380 - __main__ - INFO - Current Price: 118296.30, SMA(5): 118270.46. Signal: long
+2025-07-20 17:48:32,380 - __main__ - INFO - Checking current position...
+2025-07-20 17:48:32,380 - __main__ - INFO - Fetching position...
+2025-07-20 17:48:32,380 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:48:37,382 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:48:37,382 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:48:42,388 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:49:42,388 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:49:42,476 - __main__ - INFO - Current Price: 118292.90, SMA(5): 118282.02. Signal: long
+2025-07-20 17:49:42,477 - __main__ - INFO - Checking current position...
+2025-07-20 17:49:42,477 - __main__ - INFO - Fetching position...
+2025-07-20 17:49:42,477 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:49:47,446 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:49:47,446 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:49:52,454 - __main__ - INFO - No action needed. Signal and position are aligned.
+2025-07-20 17:50:52,454 - __main__ - INFO - --- New Cycle ---
+2025-07-20 17:50:52,545 - __main__ - INFO - Current Price: 118292.90, SMA(5): 118294.26. Signal: short
+2025-07-20 17:50:52,545 - __main__ - INFO - Checking current position...
+2025-07-20 17:50:52,545 - __main__ - INFO - Fetching position...
+2025-07-20 17:50:52,545 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:50:57,509 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:50:57,510 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:02,507 - __main__ - INFO - Reversing from LONG to SHORT.
+2025-07-20 17:51:07,507 - __main__ - INFO - Closing LONG position with SELL order at 118100.9
+2025-07-20 17:51:08,510 - __main__ - INFO - Placed SELL LIMIT order for 100 at 118101.0
+2025-07-20 17:51:08,510 - __main__ - INFO - Time to CLOSE LONG after signal: 1.00 seconds
+2025-07-20 17:51:08,510 - __main__ - INFO - Closing LONG position with SELL order c97135f8-901f-4c93-9d71-b8481f7877fb
+2025-07-20 17:51:09,510 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:09,510 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:13,512 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:13,513 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:14,517 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:14,517 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:18,508 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:18,509 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:19,509 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:19,509 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:23,515 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:23,515 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:24,516 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:24,516 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:28,515 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:28,515 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:29,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:29,516 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:33,505 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:33,505 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:34,505 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:34,505 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:38,506 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:38,506 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:39,506 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:39,506 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:43,509 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:43,509 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:44,509 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:44,509 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:48,546 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:48,546 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:49,546 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:49,546 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:53,519 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:53,519 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:54,519 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:54,519 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:51:58,509 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:51:58,510 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:51:59,510 - __main__ - INFO - Fetching position...
+2025-07-20 17:51:59,510 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:03,510 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:03,510 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:04,510 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:04,510 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:08,506 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:08,506 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:09,507 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:09,507 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:13,514 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:13,514 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:14,514 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:14,514 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:18,524 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:18,524 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:19,525 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:19,525 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:23,512 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:23,512 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:24,512 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:24,512 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:28,519 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:28,519 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:29,520 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:29,520 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:33,515 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:33,515 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:34,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:34,515 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:38,515 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:38,515 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:39,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:39,515 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:43,517 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:43,517 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:44,517 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:44,517 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:48,516 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:48,516 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:49,516 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:49,516 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:53,550 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:53,550 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:54,551 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:54,551 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:52:58,510 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:52:58,510 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:52:59,510 - __main__ - INFO - Fetching position...
+2025-07-20 17:52:59,511 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:03,514 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:03,514 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:04,514 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:04,514 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:08,511 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:08,511 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:09,512 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:09,512 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:13,519 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:13,519 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:14,519 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:14,519 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:18,520 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:18,521 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:19,521 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:19,521 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:23,514 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:23,514 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:24,515 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:24,515 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:28,522 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:28,523 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:29,523 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:29,523 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:33,520 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:33,520 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:34,521 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:34,521 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:38,519 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:38,519 - __main__ - INFO - Position for XBTUSD: 100
+2025-07-20 17:53:39,519 - __main__ - INFO - Fetching position...
+2025-07-20 17:53:39,519 - __main__ - INFO - Attempting to fetch position (attempt 1/3)
+2025-07-20 17:53:43,508 - __main__ - INFO - Successfully fetched position data.
+2025-07-20 17:53:43,508 - __main__ - INFO - Position for XBTUSD: 100
